@@ -13,6 +13,8 @@ Adds a modified version of the Bootstrap CSS to the MCE editor, for developers w
 
 This plugin adds a modified version of the Bootstrap CSS to the MCE editor, for developers who like to add their own Bootstrap code to the editor, without shortcodes. You still need to add the Bootstrap CSS & JS files to the front-end of your website.
 
+Please submit issues & feature requests on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS/issues).
+
 = Supports the following Bootstrap features =
 
 * Grid Layouts (with some caveats)
@@ -91,6 +93,10 @@ The standard way of using glyphicons is by adding an empty span element with CSS
 = 0.1 =
 * 12/7/2013
 * Initial release
+
+== Developers ==
+
+View the code & contribute on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS/issues)
 
 == Upgrade Notice ==
 
