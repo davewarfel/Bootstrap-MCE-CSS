@@ -96,7 +96,7 @@ The standard way of using glyphicons is by adding an empty span element with CSS
 
 == Developers ==
 
-View the code & contribute on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS/issues)
+View the code & contribute on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS)
 
 == Upgrade Notice ==
 
