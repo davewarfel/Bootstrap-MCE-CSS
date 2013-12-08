@@ -13,7 +13,7 @@ Adds a modified version of the Bootstrap CSS to the MCE editor, for developers w
 
 This plugin adds a modified version of the Bootstrap CSS to the MCE editor, for developers who like to add their own Bootstrap code to the editor, without shortcodes. You still need to add the Bootstrap CSS & JS files to the front-end of your website.
 
-Please submit issues & feature requests on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS/issues).
+*Using Bootstrap version 3.0.3.*
 
 = Supports the following Bootstrap features =
 
@@ -27,6 +27,8 @@ Please submit issues & feature requests on [github](https://github.com/davewarfe
 * Panels
 * Wells
 * Media Groups
+
+Please submit issues & feature requests on [github](https://github.com/davewarfel/Bootstrap-MCE-CSS/issues).
 
 *This plugin might work on WordPress versions back to 2.1, but I couldn't find when the `mce_css` filter was introduced.*
 
@@ -50,6 +52,10 @@ There are no settings to configure. Just install the plugin & Bootstrap styles w
 5. Activate the plugin in the plugin dashboard
 
 == Frequently Asked Questions ==
+
+= What if I add an editor-style.css file to my theme directory? =
+
+The Bootstrap CSS is loaded after the editor-style.css file in your active theme directory. But since Bootstrap's CSS is not very specific, just add a class of `.mceContentBody` before your selectors, and the editor-style.css rules will take precedence.
 
 = What's up with columns & grids? =
 

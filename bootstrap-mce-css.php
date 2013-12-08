@@ -15,12 +15,12 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-// Load Bootstrap CSS from plugin folder
+// Load modified Bootstrap CSS from plugin folder
 function plugin_mce_css( $mce_css ) {
 	if ( ! empty( $mce_css ) )
 		$mce_css .= ',';
 
-	$mce_css .= plugins_url( 'assets/css/bootstrap.min.css', __FILE__ );
+	$mce_css .= plugins_url( 'css/bootstrap.min.css', __FILE__ );
 
 	return $mce_css;
 }
