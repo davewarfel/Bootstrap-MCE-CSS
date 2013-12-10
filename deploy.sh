@@ -59,6 +59,7 @@ svn co $SVNURL $SVNPATH
 echo "Ignoring github specific files and deployment script"
 svn propset svn:ignore "deploy.sh
 README.md
+assets
 .git
 .gitignore" "$SVNPATH/trunk/"
 
