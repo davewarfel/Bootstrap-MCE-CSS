@@ -89,6 +89,7 @@ The standard way of using glyphicons is by adding an empty span element with CSS
 * Removed `cursor: pointer;` from several elements (buttons, labels, badges)
 * Removed `user-select: none;` from buttons, so users can edit text inside
 * Removed `margin: 0;` on `body` element
+* Added `max-width` values to `.wp-caption` and `img` elements, to eliminate horizontal scrolling when adding large images to the WYSIWYG
 
 == Screenshots ==
 
