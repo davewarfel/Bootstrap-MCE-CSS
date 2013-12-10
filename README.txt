@@ -102,6 +102,11 @@ The standard way of using glyphicons is by adding an empty span element with CSS
 
 == Changelog ==
 
+= 0.1.1 =
+* 12/10/2013
+* Removed `margin:0;` from body so that default padding persists
+* Added `max-width` values for `.wp-caption` and images (eliminate horizontal scrolling when large images are added to the WYSIWYG)
+
 = 0.1 =
 * 12/7/2013
 * Initial release
@@ -112,5 +117,5 @@ View the code & contribute on [github](https://github.com/davewarfel/Bootstrap-M
 
 == Upgrade Notice ==
 
-= 0.2 =
-When version 0.2 is released, this will be the notice to upgrade.
+= 0.1.1 =
+Minor CSS updates to fix body padding & horizontal scrolling due to large images.

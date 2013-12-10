@@ -3,7 +3,7 @@
  * Plugin Name:       Bootstrap MCE CSS
  * Plugin URI:        http://wordpress.org/plugins/bootstrap-mce-css/
  * Description:       Adds a modified version of the Bootstrap CSS to the MCE editor, for developers who like to add their own Bootstrap code to the editor, without shortcodes.
- * Version:           0.1
+ * Version:           0.1.1
  * Author:            Dave Warfel
  * Author URI:        http://wpsmackdown.com/
  * License:           GPL-2.0+
