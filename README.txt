@@ -61,6 +61,10 @@ The Bootstrap CSS is loaded after the editor-style.css file in your active theme
 
 Because Bootstrap 3 is responsive by default, and offers multiple ways to setup the grid system (xs, sm, md, lg), the styles in your MCE editor will vary based on the screen size. Try fullscreen editing mode to see your grid system take effect.
 
+= Why can't I edit buttons when I switch back to "Visual" mode? =
+
+Because of the way browsers handle the `<button>` element, editing in "Visual" mode does not work. Try using an `<a>` tag with a class of `btn`.
+
 = Does this add Bootstrap to my website? =
 
 No. You still need to include the Bootstrap CSS & Javascript files to the front-end of your website. Many themes were built on Bootstrap, and already include these files. There are also [plugins](http://wordpress.org/plugins/wordpress-bootstrap-css/) that will add these files to your site.
@@ -84,6 +88,7 @@ The standard way of using glyphicons is by adding an empty span element with CSS
 
 * Removed `cursor: pointer;` from several elements (buttons, labels, badges)
 * Removed `user-select: none;` from buttons, so users can edit text inside
+* Removed `margin: 0;` on `body` element
 
 == Screenshots ==
 
